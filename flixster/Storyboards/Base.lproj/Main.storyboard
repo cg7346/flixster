@@ -266,7 +266,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bqy-i6-rxn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+<<<<<<< HEAD:flixster/Storyboards/Base.lproj/Main.storyboard
                         <color key="barTintColor" red="0.1116698191" green="0.2321285065" blue="0.31827014590000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+=======
+                        <color key="barTintColor" red="0.11166981909309905" green="0.23212850645164118" blue="0.31827014593908631" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+>>>>>>> master:flixster/Base.lproj/Main.storyboard
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="26"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

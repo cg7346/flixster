@@ -15,20 +15,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="54v-bQ-VYx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="54v-bQ-VYx">
                                 <rect key="frame" x="138" y="205" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="cG5-SD-bp8"/>
+                                    <constraint firstAttribute="height" constant="139" id="ebA-5x-9Qj"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnL-GL-62B">
-                                <rect key="frame" x="168" y="352" width="79" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-UltraLight" family="Avenir Next Condensed" pointSize="71"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnL-GL-62B">
+                                <rect key="frame" x="160" y="352" width="93" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="4ls-MS-k9d"/>
+                                    <constraint firstAttribute="height" constant="83" id="aga-7g-oVF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="69"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.1116698191" green="0.2321285065" blue="0.31827014590000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+<<<<<<< HEAD:flixster/Storyboards/Base.lproj/LaunchScreen.storyboard
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+=======
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gnL-GL-62B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="FqM-qN-nYK"/>
+                            <constraint firstItem="54v-bQ-VYx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="205" id="K9V-oF-FGa"/>
+                            <constraint firstItem="gnL-GL-62B" firstAttribute="top" secondItem="54v-bQ-VYx" secondAttribute="bottom" constant="8" id="Kck-aQ-OXg"/>
+                            <constraint firstItem="54v-bQ-VYx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="mmT-pw-v9f"/>
+                        </constraints>
+>>>>>>> master:flixster/Base.lproj/LaunchScreen.storyboard
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

@@ -16,14 +16,9 @@ Flix is an app that allows users to browse movies from [The Movie Database API](
 
 ### App Walkthrough GIF
 <p>
-<<<<<<< Updated upstream
   <img src="https://media.giphy.com/media/o3hzigP11iHYUeEVjF/giphy.gif" width=250>
 
   <img src="https://media.giphy.com/media/RnYXNA3CVq1wa1OQhh/giphy.gif" width=250>
-=======
-<img src="https://media.giphy.com/media/o3hzigP11iHYUeEVjF/giphy.gif" width=250>
-<img src="https://media.giphy.com/media/RnYXNA3CVq1wa1OQhh/giphy.gif" width=250>
->>>>>>> Stashed changes
 </p>
 
 ### Notes
@@ -43,6 +38,7 @@ At first the collection view was not displaying properly, and figured out I need
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
+
 <img src="https://media.giphy.com/media/Orr71TRBHeBwvGNfND/giphy.gif" width=250><br>
 
 ### Notes

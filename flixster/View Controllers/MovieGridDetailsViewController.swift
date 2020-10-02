@@ -1,16 +1,16 @@
 //
-//  MovieDetailsViewController.swift
+//  MovieGridDetailsViewController.swift
 //  flixster
 //
-//  Created by Celeste Gambardella on 9/30/20.
+//  Created by Celeste Gambardella on 10/2/20.
 //  Copyright © 2020 celestegambardella. All rights reserved.
 //
 
 import UIKit
 import AlamofireImage
-class MovieDetailsViewController: UIViewController {
 
-    
+class MovieGridDetailsViewController: UIViewController {
+
     @IBOutlet weak var backdropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -23,20 +23,20 @@ class MovieDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         titleLabel.text = movie["title"] as? String
-        //titleLabel.sizeToFit()    // need if you don't have constraints
-        
+        titleLabel.sizeToFit()    // need if you don't have constraints
+
         synopsisLabel.text = movie["overview"] as? String
-        //synopsisLabel.sizeToFit()     // need if you don't have constraints
-        
+        synopsisLabel.sizeToFit()     // need if you don't have constraints
+
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
-           
+
         posterView.af_setImage(withURL: posterUrl!)
-        
+
         let backdropPath = movie["backdrop_path"] as! String
         let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
-           
+
         backdropView.af_setImage(withURL: backdropUrl!)
     }
     

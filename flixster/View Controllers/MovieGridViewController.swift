@@ -20,7 +20,6 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         
         collectionView.delegate = self
         collectionView.dataSource = self
-
         
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         
@@ -69,15 +68,27 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         
         return cell
     }
-
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
+                // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        // Find the selected movie
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.item]
+        
+        // Pass the selected movie to the details view controller
+        let detailsGridViewController = segue.destination as! MovieGridDetailsViewController
+        
+         // Sets the movie in the details view coontroller
+        detailsGridViewController.movie = movie
+        
+        // Deselect the movie tapped on for when the user goes back
+        collectionView.deselectItem(at: indexPath, animated: true)
     }
-    */
-
+    
 }

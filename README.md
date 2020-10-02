@@ -15,9 +15,11 @@ Flix is an app that allows users to browse movies from [The Movie Database API](
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-<img src="https://media.giphy.com/media/o3hzigP11iHYUeEVjF/giphy.gif" width=250><br>
+<p>
+  <img src="https://media.giphy.com/media/o3hzigP11iHYUeEVjF/giphy.gif" width=250>
 
-<img src="https://media.giphy.com/media/RnYXNA3CVq1wa1OQhh/giphy.gif" width=250><br>
+  <img src="https://media.giphy.com/media/RnYXNA3CVq1wa1OQhh/giphy.gif" width=250>
+</p>
 
 ### Notes
 At first the collection view was not displaying properly, and figured out I need to change the Estimate Size property to None

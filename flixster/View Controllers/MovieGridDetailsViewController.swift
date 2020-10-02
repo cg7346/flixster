@@ -23,10 +23,10 @@ class MovieGridDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         titleLabel.text = movie["title"] as? String
-//        titleLabel.sizeToFit()    // need if you don't have constraints
+        titleLabel.sizeToFit()    // need if you don't have constraints
 
         synopsisLabel.text = movie["overview"] as? String
-//        synopsisLabel.sizeToFit()     // need if you don't have constraints
+        synopsisLabel.sizeToFit()     // need if you don't have constraints
 
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String

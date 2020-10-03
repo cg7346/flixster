@@ -22,7 +22,8 @@ Flix is an app that allows users to browse movies from [The Movie Database API](
 </p>
 
 ### Notes
-At first the collection view was not displaying properly, and figured out I need to change the Estimate Size property to None
+Describe any challenges encountered while building the app.
+- At first the collection view was not displaying properly, and figured out I need to change the Estimate Size property to None
 
 ---
 

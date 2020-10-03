@@ -18,7 +18,7 @@ Flix is an app that allows users to browse movies from [The Movie Database API](
 <p>
   <img src="https://media.giphy.com/media/o3hzigP11iHYUeEVjF/giphy.gif" width=250>
 
-  <img src="https://media.giphy.com/media/RnYXNA3CVq1wa1OQhh/giphy.gif" width=250>
+  <img src="https://media.giphy.com/media/MbvbRe749sJmJ6ki4k/giphy.gif" width=250>
 </p>
 
 ### Notes
